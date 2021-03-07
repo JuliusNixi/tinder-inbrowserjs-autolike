@@ -21,3 +21,15 @@ var s = document.createElement('script'); s.src = 'https://bit.ly/3cbhhBy'; docu
 10. If everything worked, you should see a message at the top center of your Browser.
 11. Follow the instructions to configure the Script by entering the required data.
 12. Enjoy! 💙
+
+# When you have to Re-Install it:
+The Script is designed to be a tool to be used in case of need. It is not intended to remain installed.
+That's why every time you:
+* Close the Tinder tab from your Browser.
+* Update the Tinder tab from the Browser.
+* Close the whole Browser.
+The Script must be re-installed.
+On the plus side, all you have to do is paste a string, right?
+
+# How to Unistall:
+You cannot uninstall what has never been installed. To make your Browser forget the Script simply press F5 on keyboard. 
