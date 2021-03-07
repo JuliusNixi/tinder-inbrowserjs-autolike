@@ -68,7 +68,7 @@ async function click(){
      	absdislikecounter++
      	tmpcounter = 0
      }
-     sleep(delay)
+     await sleep(delay)
      
   }
 
