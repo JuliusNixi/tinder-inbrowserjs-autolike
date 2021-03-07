@@ -1,11 +1,11 @@
 # Tinder InBrowserJS Autolike
 Simple JavaScript program that after being imported into the browser automatically puts likes on Tinder to increase the statistical probability of matches.
 
-# How to Install:
+## How to Install:
 This script does not require any installation! It just needs to be imported into the browser. To do this:
 
 1. Open you browser. The script should work on any browser. However, it has not been tested on every browser. In case of a bug, just open an issue.
-2. Go on [Tinder]https://www.tinder.com.
+2. Go on [Tinder](https://www.tinder.com).
 3. Log in in the web version with your Account.
 4. Place yourself in the Tinder home (the page with the matches).
 5. On keyboard press CTRL + SHIFT + C. You should be open the tools for developers.
@@ -22,7 +22,7 @@ var s = document.createElement('script'); s.src = 'https://bit.ly/3cbhhBy'; docu
 11. Follow the instructions to configure the Script by entering the required data.
 12. Enjoy! 💙
 
-# When you have to Re-Install it:
+## When you have to Re-Install it:
 The Script is designed to be a tool to be used in case of need. It is not intended to remain installed.
 That's why every time you:
 * Close the Tinder tab from your Browser.
@@ -32,14 +32,14 @@ That's why every time you:
 The Script must be re-installed.
 On the plus side, all you have to do is paste a string, right?
 
-# How to Unistall:
+## How to Unistall:
 You cannot uninstall what has never been installed. To make your Browser forget the Script simply press F5 on keyboard.
 
-# Activate & Deactivate the Script:
+## Activate & Deactivate the Script:
 * *DEACTIVATE*: If you want to stop the script **only temporarily and don't want to uninstall it** press '**s**' on keyboard.
 * *ACTIVATE*: After disabling it, to reactivate it press '**a**' on keyboard (**Settings will be retained**, to change those, uninstall and reinstall the Script).
 
-# Dislike & DislikeRateo:
+## Dislike & DislikeRateo:
 The Script allows, in order to avoid making Tinder suspicious, to put Dislikes as well.
 Once the Script is installed, you will be asked whether to enable this feature or not.
 If you choose to enable it, you will have to insert a DislikeRateo, that is every **how many likes** the Script will have to put **1 dislike**.
