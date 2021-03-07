@@ -5,7 +5,7 @@ Simple JavaScript program that after being imported into the browser automatical
 This script does not require any installation! It just needs to be imported into the browser. To do this:
 
 1. Open you browser. The script should work on any browser. However, it has not been tested on every browser. In case of a bug, just open an issue.
-2. Go on https://www.tinder.com.
+2. Go on [Tinder]https://www.tinder.com.
 3. Log in in the web version with your Account.
 4. Place yourself in the Tinder home (the page with the matches).
 5. On keyboard press CTRL + SHIFT + C. You should be open the tools for developers.
