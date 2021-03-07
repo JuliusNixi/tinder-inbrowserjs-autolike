@@ -35,11 +35,11 @@ On the plus side, all you have to do is paste a string, right?
 # How to Unistall:
 You cannot uninstall what has never been installed. To make your Browser forget the Script simply press F5 on keyboard.
 
-#Activate & Deactivate the Script:
+# Activate & Deactivate the Script:
 *DEACTIVATE*: If you want to stop the script **only temporarily and don't want to uninstall it** press '**s**' on keyboard.
 *ACTIVATE*: After disabling it, to reactivate it press '**a**' on keyboard.
 
-#Dislike & DislikeRateo:
+# Dislike & DislikeRateo:
 The Script allows, in order to avoid making Tinder suspicious, to put Dislikes as well.
 Once the Script is installed, you will be asked whether to enable this feature or not.
 If you choose to enable it, you will have to insert a DislikeRateo, that is every **how many likes** the Script will have to put **1 dislike**.
