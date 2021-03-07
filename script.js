@@ -5,8 +5,10 @@ function keyshandler(event){
 
   if (event.code == "KeyS"){
     active = false;
-    console.log("SCRIPT DEACTIVATED")
-    alert("SCRIPT DEACTIVATED")
+    let message = `SCRIPT DEACTIVATED. LIKES PLACED: ${String(abslikecounter)}.`
+    if (dislike) message += ` DISLIKE PLACED: ${String(absdislikecounter)}.`
+    console.log(message)
+    alert(message)
   if (event.code == "KeyA"){
     active = true
     console.log("PRESS OK TO RE-ACTIVATE THE SCRIPT")
