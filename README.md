@@ -28,6 +28,7 @@ That's why every time you:
 * Close the Tinder tab from your Browser.
 * Update the Tinder tab from the Browser.
 * Close the whole Browser.
+
 The Script must be re-installed.
 On the plus side, all you have to do is paste a string, right?
 
