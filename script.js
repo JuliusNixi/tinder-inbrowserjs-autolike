@@ -4,11 +4,13 @@ alert("SCRIPT INJECTED SUCCESFULLY!")
 //  EVENT HANDLER FUNCTION - INTERCEPT KEY PRESSING TO START/STOP SCRIPT
 function keyshandler(event){
 
-  //  KEY S - STOP SCRIPT - DISPLAY A MESSAGE
+  //  KEY S - STOP SCRIPT - RESET COUNTERS - DISPLAY A MESSAGE
   if (event.code == "KeyS"){
     active = false;
     let message = `SCRIPT DEACTIVATED. LIKES PLACED: ${String(abslikecounter)}.`
     if (dislike) message += ` DISLIKE PLACED: ${String(absdislikecounter)}.`
+    abslikecounter = 0
+    absdislikecounter = 0
     alert(message)
   }
 
@@ -61,6 +63,10 @@ if (dislike){
   }
 }
 
+//  SOME USEFULL COUNTERS
+var abslikecounter = 0
+var absdislikecounter = 0
+
 //  FINAL MESSAGE
 alert("SCRIPT START NOW! DON'T INTERACT WITH TINDER IN ANY WAY (NO CLICKS ON MATCHES OR IN OTHERS PLACES)! PRESS 'S' TO STOP IT. PRESS 'A' TO REACTIVATE IT (WITH SAME SETTINGS). TO UNISTALL PRESS 'F5'.")
 
@@ -76,9 +82,7 @@ function sleep(ms) {
 //  MAIN WORKING FUNCTION
 async function click(){
   
-  //  SOME COUNTERS
-  let abslikecounter = 0
-  let absdislikecounter = 0
+  //  COUNTER TO PLACE DISLIKES
   let tmpcounter = 0
 
   while (active){
