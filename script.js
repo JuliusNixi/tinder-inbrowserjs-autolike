@@ -87,18 +87,18 @@ async function click(){
 
   while (active){
 
-     // LIKE BUTTON CLICK AND UPDATE COUNTER
-     likebutton.click()
-     abslikecounter++
-     tmpcounter++
-
      // IF DISLIKE ARE ENABLED - DISLIKE BUTTON CLICK AND UPDATE COUNTER
      if (dislike && dislikerateo == tmpcounter) {
       dislikebutton.click()
       absdislikecounter++
       tmpcounter = 0
+     }else{
+       // LIKE BUTTON CLICK AND UPDATE COUNTER
+       likebutton.click()
+       abslikecounter++
+       tmpcounter++
      }
-
+    
      // SLEEP
      await sleep(delay)
      
