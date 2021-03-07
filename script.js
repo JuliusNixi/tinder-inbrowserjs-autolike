@@ -9,7 +9,7 @@ function keyshandler(event){
     if (dislike) message += ` DISLIKE PLACED: ${String(absdislikecounter)}.`
     console.log(message)
     alert(message)
-  if (event.code == "KeyA"){
+  }if (event.code == "KeyA"){
     active = true
     console.log("PRESS OK TO RE-ACTIVATE THE SCRIPT")
     alert("SCRIPT ACTIVATED")
