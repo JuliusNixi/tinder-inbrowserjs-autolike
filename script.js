@@ -18,7 +18,7 @@ var dislikebutton = document.getElementsByClassName("button Lts($ls-s) Z(0) Cent
 var delay
 while (1){
   delay = Number(prompt("Please, enter the number of seconds that should pass between each like (it is advisable not to put less than 3): "))
-  if (delay.isNaN() || delay <= 0)
+  if (isNaN(delay) || delay <= 0)
     alert("The value inserted is not a number o it is lower than 1. You'll have to re-enter it.")
   else
     break
@@ -28,7 +28,7 @@ delay *= 1000
 var dislike
 while (1){
   dislike = Number(prompt("Please insert 1 if you want the script to place some dislikes, else insert 0: "))
-  if (dislike.isNaN() || (dislike != 1 && dislike != 0))
+  if (isNaN(dislike) || (dislike != 1 && dislike != 0))
     alert("The value inserted is not a number o it is different from 0 and 1. You'll have to re-enter it.")
   else
     break
@@ -38,7 +38,7 @@ if (dislike){
   var dislikerateo
   while (1){
     dislikerateo = Number(prompt("Please enter, every how many likes, a dislike will be placed: "))
-    if (dislikerateo.isNaN() || dislikerateo <= 0)
+    if (isNaN(dislikerateo) || dislikerateo <= 0)
       alert("The value inserted is not a number o it is lower than 1. You'll have to re-enter it.")
     else
       break
