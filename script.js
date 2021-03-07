@@ -3,9 +3,14 @@ alert("SCRIPT INJECTED SUCCESFULLY!")
 
 function keyshandler(event){
 
-  if (event.code == "KeyS") active = false;
+  if (event.code == "KeyS"){
+    active = false;
+    console.log("SCRIPT DEACTIVATED")
+    alert("SCRIPT DEACTIVATED")
   if (event.code == "KeyA"){
     active = true
+    console.log("PRESS OK TO RE-ACTIVATE THE SCRIPT")
+    alert("SCRIPT ACTIVATED")
     click()
   }
 
@@ -49,7 +54,9 @@ console.log("SCRIPT START NOW! DON'T INTERACT WITH TINDER IN ANY WAY (NO CLICKS 
 alert("SCRIPT START NOW! DON'T INTERACT WITH TINDER IN ANY WAY (NO CLICKS ON MATCHES OR IN OTHERS PLACES)! PRESS 'S' TO STOP IT. PRESS 'A' TO REACTIVATE IT (WITH SAME SETTINGS). TO UNISTALL PRESS 'F5'.")
 var active = true
 
-async function sleep(ms) {
+click()
+
+function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
