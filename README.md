@@ -42,5 +42,5 @@ You cannot uninstall what has never been installed. To make your Browser forget 
 ## Dislike & DislikeRateo:
 The Script allows, in order to avoid making Tinder suspicious, to put Dislikes as well.
 Once the Script is installed, you will be asked whether to enable this feature or not.
-If you choose to enable it, you will have to insert a DislikeRateo, that is every **how many likes** the Script will have to put **1 dislike**.
+If you choose to enable it, you will have to insert a DislikeRatio, that is every **how many likes** the Script will have to put **1 dislike**.
 
