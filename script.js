@@ -51,12 +51,12 @@ while (1){
     break
 }
 
-//  ASKING FOR INPUT AND VARIOUS INPUT CHECKS - IF DISLIKE ARE ENABLED ASKING INPUT FOR SET UP A RATEO
+//  ASKING FOR INPUT AND VARIOUS INPUT CHECKS - IF DISLIKE ARE ENABLED ASKING INPUT FOR SET UP A RATIO
 if (dislike){
-  var dislikerateo
+  var dislikeratio
   while (1){
-    dislikerateo = Number(prompt("Please enter, every how many likes, a dislike will be placed: "))
-    if (isNaN(dislikerateo) || dislikerateo <= 0)
+    dislikeratio = Number(prompt("Please enter, every how many likes, a dislike will be placed: "))
+    if (isNaN(dislikeratio) || dislikeratio <= 0)
       alert("The value inserted is not a number o it is lower than 1. You'll have to re-enter it.")
     else
       break
@@ -88,7 +88,7 @@ async function click(){
   while (active){
 
      // IF DISLIKE ARE ENABLED - DISLIKE BUTTON CLICK AND UPDATE COUNTER
-     if (dislike && dislikerateo == tmpcounter) {
+     if (dislike && dislikeratio == tmpcounter) {
       dislikebutton.click()
       absdislikecounter++
       tmpcounter = 0
