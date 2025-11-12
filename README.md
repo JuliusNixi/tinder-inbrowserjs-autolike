@@ -8,7 +8,7 @@ This script does not require any installation! It just needs to be imported into
 2. Go on [Tinder](https://www.tinder.com).
 3. Log in in the web version with your Account.
 4. Place yourself in the Tinder home (the page with the matches).
-5. On keyboard press CTRL + SHIFT + C. You should be open the tools for developers.
+5. On keyboard press CTRL + SHIFT + C on Google Chrome browser, or search on Google how to open the "developer tools" on your browser. You should be open the tools for developers.
 6. Locate and go to the Console tab.
 7. Copy this code line.
 
@@ -17,10 +17,11 @@ var s = document.createElement('script'); s.src = 'https://bit.ly/3cbhhBy'; docu
 ```
 
 8. Paste it in the Console tab (Opened before).
-9. Press ENTER on the keyboard.
-10. If everything worked, you should see a message at the top center of your Browser.
-11. Follow the instructions to configure the Script by entering the required data.
-12. Enjoy! 💙
+9. If you get a warning, follow it to enable pasting (e.g. on Google Chrome browser 'allow pasting' must be typed and confirmed), then go back to step 7.
+10. Press ENTER on the keyboard.
+11. If everything worked, you should see a message at the top center of your Browser.
+12. Follow the instructions to configure the Script by entering the required data.
+13. Enjoy! 💙
 
 ## When you have to Re-Install it:
 The Script is designed to be a tool to be used in case of need. It is not intended to remain installed.
