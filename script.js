@@ -26,8 +26,8 @@ function keyshandler(event){
 document.addEventListener('keypress', keyshandler);
 
 //  BUTTONS VAR
-var likebutton = document.getElementsByClassName("gamepad-icon gamepad-icon-invert")[7]
-var dislikebutton = document.getElementsByClassName("gamepad-icon gamepad-icon-invert")[3]
+var likebutton = document.getElementsByClassName("button Lts($ls-s) Z(0) CenterAlign Mx(a) Cur(p) Tt(u) Bdrs(50%) P(0) Fw($semibold) focus-button-style gamepad-button Bxsh($bxsh-btn) Expand Ov(h) Trstf(e) Trsdu($normal) Wc($transform) Pe(a) Scale(1.1):h Scale(.75):a Bgc($c-ds-background-gamepad-sparks-like-default) Bgi($g-ds-background-gamepad-sparks-like-pressed):a")[0]
+var dislikebutton = document.getElementsByClassName("button Lts($ls-s) Z(0) CenterAlign Mx(a) Cur(p) Tt(u) Bdrs(50%) P(0) Fw($semibold) focus-button-style gamepad-button Bxsh($bxsh-btn) Expand Ov(h) Trstf(e) Trsdu($normal) Wc($transform) Pe(a) Scale(1.1):h Scale(.75):a Bgc($c-ds-background-gamepad-sparks-nope-default) Bgi($g-ds-background-gamepad-sparks-nope-pressed):a")[0]
 
 //  ASKING FOR INPUT AND VARIOUS INPUT CHECKS - DELAY BETWEEN EACH LIKE
 var delay
